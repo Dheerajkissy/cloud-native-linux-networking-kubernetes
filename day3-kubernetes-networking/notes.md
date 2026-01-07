@@ -17,12 +17,22 @@ and service discovery.
 - kubectl describe pod
 - kubectl logs
 
+### Commands Used
+```bash
+sysctl -w net.ipv4.ip_forward=1
+ip route
+```
 ### Practical Work
 - Deployed multiple pods
 - Verified pod IP allocation
 - Tested inter-pod communication using ping
 - Observed DNS resolution behavior
 - Used kubectl exec for debugging
+
+## Tasks Performed
+- Created a privileged Linux router pod
+- Enabled IP forwarding
+- Tested inter-pod connectivity
 
 ### Issues Faced
 - kubectl segmentation fault issue

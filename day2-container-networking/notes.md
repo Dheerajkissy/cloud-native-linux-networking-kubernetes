@@ -17,13 +17,23 @@ virtual Ethernet pairs, bridges, and routing.
 - ping, traceroute
 - brctl / bridge
 
+## Commands Used
+```bash
+ip addr
+ip route
+ss -tuln
+iptables -L
+```
 ### Practical Work
 - Observed Docker bridge (docker0)
 - Analyzed container IP assignment
 - Verified container-to-host connectivity
 - Inspected routing tables inside namespaces
 
-### Issues Faced
+### Tasks Performed
+- Launched privileged Linux pods
+- Explored network namespaces
+- Inspected interfaces, routes, and sockets### Issues Faced
 - Permission errors when capturing packets
 - Understanding veth interface mapping
 

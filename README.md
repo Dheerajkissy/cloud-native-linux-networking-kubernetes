@@ -1,22 +1,22 @@
-# Cloud-Native Linux Networking & Kubernetes Project
+# Cloud-Native Secure Linux Networking & Traffic Control Platform
 
-This project demonstrates hands-on implementation of Linux networking, container networking,
-and Kubernetes concepts using Kali Linux.
+## Overview
+This project demonstrates cloud-native networking concepts using Linux and Kubernetes without application code.
 
-## Key Highlights
-- Linux namespaces and virtual networking
-- Routing, firewalling, and packet inspection
-- Kubernetes pod-to-pod communication
-- Self-healing and network troubleshooting
-
-## Tools Used
-- Linux (Kali)
+## Technologies
+- Linux (iptables, tc, namespaces)
+- Kubernetes (Minikube)
 - Docker
-- Kubernetes (kubectl)
-- iproute2, iptables, tcpdump
+- Networking (Routing, NAT, Firewall)
 
-## Project Structure
-- Day 1: Linux networking fundamentals
-- Day 2: Container and routing setup
-- Day 3: Kubernetes networking
-- Day 4: Self-healing firewall and debugging
+## Key Features
+- Linux-based routing and firewalling
+- Traffic shaping and monitoring
+- Pod-level isolation
+- Kubernetes self-healing
+
+## Use Case
+Simulates AWS/GCP internal networking using local infrastructure.
+
+## Author
+Dheeraj Kishore Prakki
